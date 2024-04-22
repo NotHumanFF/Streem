@@ -92,7 +92,7 @@ let toggleCamera = async (e) => {
         e.target.style.backgroundColor = '#EE4B2B'
     }
 }
-const APP_ID = "4f6ebcc7353c4f339016dceb102a842b"
+const APP_ID = "f3fc3a9fd02a4a34839cb65224d7b6cd"
 const TOKEN = "007eJxTYAjLan/uFSLcNvX+FDWjndNYDAPchUrzN0jPyr8TPSso31eBwSTNLDUpOdnc2NQ42STN2NjSwNAsJTk1ydDAKNHCxCjJuPdGSkMgI0OEbQ0LIwMEgvgsDLmJmXkMDACj+x0Q"
 const CHANNEL = "main"
 document.getElementById('join-btn').addEventListener('click', joinStream)
