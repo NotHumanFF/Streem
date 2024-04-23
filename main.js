@@ -94,7 +94,7 @@ let toggleCamera = async (e) => {
     }
 }
 const APP_ID = "f3fc3a9fd02a4a34839cb65224d7b6cd"
-// const TOKEN = "007eJxTYNgrL8H5qu1Lhfde66j910ROV2xi6DqZbJl/mjufu1v/0zMFhjTjtGTjRMu0FAOjRJNEYxMLY8vkJDNTIyOTFPMks+SU8A1qaQ2BjAxu3xUZGRkgEMRnYchNzMxjYAAANxEe9g=="
+const TOKEN = "007eJxTYNgrL8H5qu1Lhfde66j910ROV2xi6DqZbJl/mjufu1v/0zMFhjTjtGTjRMu0FAOjRJNEYxMLY8vkJDNTIyOTFPMks+SU8A1qaQ2BjAxu3xUZGRkgEMRnYchNzMxjYAAANxEe9g=="
 const CHANNEL = "main"
 document.getElementById('join-btn').addEventListener('click', joinStream)
 document.getElementById('leave-btn').addEventListener('click', leaveAndRemoveLocalStream)
