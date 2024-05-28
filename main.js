@@ -95,7 +95,7 @@ let toggleCamera = async (e) => {
 }
 const APP_ID = "f3fc3a9fd02a4a34839cb65224d7b6cd"
 const TOKEN = "007eJxTYPj3ZeZl/ZBA3yZlh5UP+Zp9T87OKC6SkZ7VXB2l/+z9tP8KDGnGacnGiZZpKQZGiSaJxiYWxpbJSWamRkYmKeZJZskpRyJC0xoCGRnyJi1hYWSAQBCfnSE5IzEvLzWHgQEA+M4hpQ=="
-const CHANNEL = "main"
+const CHANNEL = "channel"
 document.getElementById('join-btn').addEventListener('click', joinStream)
 document.getElementById('leave-btn').addEventListener('click', leaveAndRemoveLocalStream)
 document.getElementById('mic-btn').addEventListener('click', toggleMic)
